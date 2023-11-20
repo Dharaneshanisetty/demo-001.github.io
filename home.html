@@ -1,0 +1,61 @@
+<!-- HTML and CSS Exercises
+Create Responsive static website
+5 pages (Home, About Us, Contact Us, Portfolio, Features)
+      Header and Footer - common for all pages
+      Homepage - Banner image and overlap content, 3 cards div, left content right image one div
+      About Us - Banner image and overlap content, content paragraph tag design 
+      Contact - Form, HTML5 validation, iframe, Address Paragraph
+      Portfolio - Banner image and overlap content, Content Paragraph, image with content separate div’s
+      Features - Banner, company features image, content with separate cards for each and every feature
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel = "stylesheet" href = index.css >
+    <title>Home</title>
+</head>
+<body>
+        <navbar class="header">
+            <a href = "home.html">
+                <p>X</p>    
+            </a>        
+            <a href = "home.html" class="nav-link">Home</a> 
+            <a href = "about-us.html" class="nav-link">About Us</a>
+            <a href = "portfolio.html" class="nav-link">Portfolio</a>
+            <a href = "features.html" class="nav-link">Features</a>
+            <a href = "contact-us.html" class="nav-link">Contact</a>
+        </navbar>
+        <div class="banner">
+            <marquee style="font-family: sans-serif;font-size: 35px;text-align: center;font-weight: 100;"scrollamount = "3" width = "100%" direction = "down" height = "50%">
+                Making the world a better place...
+            </marquee>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h1 class="card-heading">Making the world better place</h1>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sequi totam ducimus officia nemo, </p>
+            </div>
+            <img style="height: 200px;width: 200px;" src = "https://images.ctfassets.net/0d3i1kfsuaq3/1yrj8n8lDPJntHjAOOO0sg/2a9c1907132cb69c1b3611b3d18f796d/Kindercare_1000x1000.jpg" />
+        </div>
+        <div class="card">
+            <img style="height: 200px;width: 200px;" src = "https://images.ctfassets.net/0d3i1kfsuaq3/2wAIZJcQ0yg9mcbtRvk2zO/110bb2225d64cb86f9ba7768af197f48/Sweetwater_1000x1000.jpg" />
+            <div class="content">
+                <h1 class="card-heading">Helping Other People</h1>
+                <p class = "card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sequi totam ducimus officia nemo, </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h1 class="card-heading">Engaging with the people</h1>
+                <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sequi totam ducimus officia nemo, </p>
+            </div>
+            <img style="height: 200px;width: 200px;" src = "https://images.ctfassets.net/0d3i1kfsuaq3/71naeiz2KgRwYHcCguKyAH/911fb09e6ba947684d9904d179fc1217/BH_AI_Excellence_Award_HVH.jpg" />
+        </div>
+        <footer class="footer">
+            <p class="footer-text">All Rights Reserved @ 2023</p>
+        </footer>
+</body>
+</html>
